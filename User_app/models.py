@@ -6,7 +6,7 @@ class Group(models.Model):
     def __str__(self):
         return self.name
 
-class User(models.Model):
+class User1(models.Model):
     ROLES = (
     ('admin', 'Адміністратор'),
     ('user', 'Користувач')
